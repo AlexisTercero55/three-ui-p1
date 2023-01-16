@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+/* .canvas_{
+  border: 2px solid;
+}
+
+.App{
+  border: 50px solid #5dafb8;
+} */
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color:rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  /* background-color: #98d2be; */
+  background-color: #ee5522;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d23d09' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+
+
+}
+
+.card {
+  width: 80vw;
+  height: 50vh;
+  padding: 2rem;
+
+  /* border-radius: 13px;
+  box-shadow: 20px 40px 33px rgba(0,0,0,0.3);
+  background-color:  #010101; */
+  /* background-color: #17ab32;
+  opacity: 1;
+  background: linear-gradient(135deg, #a945f755 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #a945f7 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #a945f755 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #a945f7 25%, #e5e5f7 25%) 0px 0/ 20px 20px; */
+
+}
+
+.product-canvas {
+  width: 100%;
+  height: 38vh;
+  /* background:white; */
+  /* box-shadow:  10px 15px 15px 6px #98d2be;
+  border-radius: 0px;
+  margin-bottom:20px */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+}
+
+.colors {
+display:flex;
+flex-direction:row;
+/* display: none; */
+}
+
+.colors div {padding:8px;}
+
+
+/* -------------- */
+.outOffset
+{
+    /* margin:0px; */
+    /* margin-left: 25%; */
+    padding:0px;
+}
+  
+.title {
+  /* position the heading */
+  text-align: center;
+  position: absolute;
+  /* border-style: solid; */
+  width: 100%;
+  
+
+  /* make sure that the heading is drawn on top */
+  z-index: 1;
+
+  /* Establecemos el color de fondo del elemento h1 en transparente */
+  background-color: transparent;
+  
+  /* Aplicamos una transición suave en el color del texto del elemento h1 */
+  transition: color 0.5s ease;
+  
+  /* Establecemos el color del texto del elemento h1 en verde */
+  color: green;
+  
+  /* Aplicamos un gradiente lineal en el color del texto del elemento h1 */
+  background: -webkit-linear-gradient(left, #ff6600, #99ff00);
+  background: -o-linear-gradient(right,#ff6600, #99ff00);
+  background: -moz-linear-gradient(right,#ff6600, #99ff00);
+  background: linear-gradient(to right, #ff6600, #99ff00);
+  
+  /* Establecemos el color de fondo del elemento h1 en transparente */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

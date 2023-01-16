@@ -7,8 +7,8 @@ import PrimiriveScene from './models/PrimiriveScene'
 
 function App() {
 
-  const [mesh, setMesh] = useState('#000000');
-  const [details, setDetails] = useState('#98d2be');
+  const [mesh, setMesh] = useState('#830C0C');
+  const [details, setDetails] = useState('#1F6F53');
   const [inner, setInner] = useState('#ff0000');
 
   return (

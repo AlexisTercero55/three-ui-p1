@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-        <h1 className="title outOffset">Made with ❤ by <a href="https://www.instagram.com/uri.sab/">&#64;Uri.sab</a></h1>
+        <h1 className="title">Made with ❤ by <a href="https://www.instagram.com/uri.sab/">&#64;Uri.sab</a></h1>
       <div className="wrapper">
         <div className="card">
             <div className="product-canvas">

@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview --host"
+    "preview": "vite preview --host",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@react-three/drei": "^9.52.4",

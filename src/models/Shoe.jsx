@@ -8,7 +8,7 @@ import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber';
 
 export function Model(props) {
-  const { nodes, materials } = useGLTF('/assets/gltf/shoe/shoe.gltf')
+  const { nodes, materials } = useGLTF('./assets/gltf/shoe/shoe.gltf')
   const shoe = useRef();
   useFrame((state, delta, xrFrame) => {
     shoe.current.rotateY(delta/10);

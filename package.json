@@ -1,8 +1,16 @@
 {
   "name": "three-ui-p1",
+  "author": {
+    "name": "Alexis Tercero",
+    "email": "alexistercero55@gmail.com",
+    "github" : "https://github.com/AlexisTercero55",
+    "location" : "CDMX - México",
+    "url": "https://alexistercero55.github.io/landing_page_Alexis_III/"
+  },
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "url" : "https://alexistercero55.github.io/three-ui-p1/",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",

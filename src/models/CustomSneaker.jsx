@@ -14,22 +14,21 @@ const CustomSneaker = () => {
             </div>
             <h2>Color chooser</h2>
             <div className='colors'>
-                 <div>
-
-                    <input type="color" id="Details" name="Details"
+                 <div className='colorInputWarp' >
+                    <input className='colorInput' type="color" id="Details" name="Details"
                            value={details}
                            onChange={(e) => setDetails(e.target.value)} />
                     <label htmlFor="Details">Details</label>
                   </div>
 
-                <div>
-                    <input type="color" id="Inner" name="Inner"
+                <div className='colorInputWarp' >
+                    <input className='colorInput' type="color" id="Inner" name="Inner"
                             value={inner}
                             onChange={(e) => setInner(e.target.value)} />
                     <label htmlFor="Inner">Inner</label>
                 </div>
-                 <div>
-                    <input type="color" id="Mesh" name="Mesh"
+                 <div className='colorInputWarp' >
+                    <input className='colorInput' type="color" id="Mesh" name="Mesh"
                             value={mesh}
                             onChange={(e) => setMesh(e.target.value)} />
                     <label htmlFor="Mesh">Mesh</label>

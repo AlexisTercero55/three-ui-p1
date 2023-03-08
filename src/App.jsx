@@ -19,9 +19,9 @@ function App() {
       <main>
         <CustomSneaker></CustomSneaker>
       </main>
-      <footer>
+      {/* <footer>
         uwu
-      </footer>
+      </footer> */}
     </div>
   )
 }

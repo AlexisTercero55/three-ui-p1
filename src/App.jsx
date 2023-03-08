@@ -1,9 +1,13 @@
-// import {Canvas} from '@react-three/fiber';
-// import {OrbitControls, useGLTF} from '@react-three/drei'
+/** 3/07/27 : CDMX/México.
+ * @author  @AlexisTercero55
+ * @github  https://github.com/AlexisTercero55
+ * @mail    alexistercero55@gmail.com
+ * @license MPL-2.0
+ */
 
-import { useState, useRef } from 'react'
-import './App.css'// just css for wrapper and its content - no threejs
-import PrimiriveScene from './models/PrimiriveScene'
+import { useState, useRef } from 'react';
+import './App.css';
+import PrimiriveScene from './models/PrimiriveScene';
 
 function App() {
 
@@ -13,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-        <h1 className="title">Made with ❤ by <a href="https://www.instagram.com/uri.sab/">&#64;Uri.sab</a></h1>
+      <h1 className="title">Made with ❤ by <a href="https://www.instagram.com/uri.sab/">&#64;Uri.sab</a></h1>
       <div className="wrapper">
         <div className="card">
             <div className="product-canvas">

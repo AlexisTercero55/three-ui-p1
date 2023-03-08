@@ -1,53 +1,27 @@
-/** 3/07/27 : CDMX/México.
+/** 3/08/27 : CDMX/México.
  * @author  @AlexisTercero55
  * @github  https://github.com/AlexisTercero55
  * @mail    alexistercero55@gmail.com
  * @license MPL-2.0
  */
 
-import { useState, useRef } from 'react';
 import './App.css';
-import PrimiriveScene from './models/PrimiriveScene';
+import CustomSneaker from './models/CustomSneaker';
 
 function App() {
-
-  const [mesh, setMesh] = useState('#830C0C');
-  const [details, setDetails] = useState('#1F6F53');
-  const [inner, setInner] = useState('#ff0000');
-
   return (
     <div className="App">
-      <h1 className="title">Made with ❤ by <a href="https://www.instagram.com/uri.sab/">&#64;Uri.sab</a></h1>
-      <div className="wrapper">
-        <div className="card">
-            <div className="product-canvas">
-              <PrimiriveScene colors={{mesh,details,inner }}></PrimiriveScene>
-            </div>
-            <h2>Color chooser</h2>
-            <div className='colors'>
-                 <div>
-
-                    <input type="color" id="Details" name="Details"
-                           value={details}
-                           onChange={(e) => setDetails(e.target.value)} />
-                    <label htmlFor="Details">Details</label>
-                  </div>
-
-                <div>
-                    <input type="color" id="Inner" name="Inner"
-                            value={inner}
-                            onChange={(e) => setInner(e.target.value)} />
-                    <label htmlFor="Inner">Inner</label>
-                </div>
-                 <div>
-                    <input type="color" id="Mesh" name="Mesh"
-                            value={mesh}
-                            onChange={(e) => setMesh(e.target.value)} />
-                    <label htmlFor="Mesh">Mesh</label>
-                </div>
-            </div>
-        </div>
-    </div>
+      <header className="title">
+        <h1>
+        Made with ❤ by <a href="https://www.instagram.com/uri.sab/">&#64;Uri.sab</a>
+        </h1>
+      </header>
+      <main>
+        <CustomSneaker></CustomSneaker>
+      </main>
+      <footer>
+        uwu
+      </footer>
     </div>
   )
 }
